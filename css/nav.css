@@ -1,6 +1,4 @@
-/* list style :none takes out the bullet points.
-    Properties: display and justify-content make the nav bar 
-*/
+/* list style :none takes out the bullet points.*/
 
 ul {
   margin: 0;
