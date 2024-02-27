@@ -3,8 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Assignment-3</title>
+    <!--css links-->
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/typography.css" />
+
+    <!--font links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@1,500&display=swap"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Assignment-3</title>
   </head>
-  <body></body>
+  <body>
+    <nav class="flex items-center justify-between bg-gray-800 p-4 text-white">
+      <a href=""><h1 class="text-xl font-semibold">Employment Agency</h1></a>
+      <ul class="flex space-x-4">
+        <li><a href="#" class="hover:underline">Home</a></li>
+        <li><a href="#" class="hover:underline">Clients</a></li>
+        <li><a href="#" class="hover:underline">About us</a></li>
+        <li><a href="#" class="hover:underline">Locations</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <header>
+        <h2 class="text-3xl font-bold mb-4">
+          Experts in connecting future employees/employers!
+        </h2>
+        <div class="card-content">
+          <a href="#" class="hover:bg-blue-500 hover:text-white card"
+            >Get in touch</a
+          >
+          <a href="#" class="hover:bg-blue-500 hover:text-white card ml-4"
+            >Book a free session</a
+          >
+        </div>
+      </header>
+
+      <div
+        class="max-w-screen-lg mx-auto bg-gray-100 text-gray-800 p-8 rounded-lg text-xl leading-relaxed"
+      >
+        <h3>Our Services:</h3>
+        <p>
+          Employment agency collaborates with individuals and companies/clients
+          seeking employment/employees to match with each other for positions
+          that align with the required skill-set and expertise
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container lg:flex lg:justify-between">
+        <!-- Your existing content here -->
+      </div>
+
+      <h1>&copy; 2024 Mo Sharma</h1>
+    </footer>
+  </body>
 </html>
